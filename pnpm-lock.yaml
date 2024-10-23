@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@types/node':
+        specifier: 22.7.9
+        version: 22.7.9
       pdfkit:
         specifier: 0.15.0
         version: 0.15.0
@@ -24,6 +27,9 @@ packages:
 
   '@swc/helpers@0.3.17':
     resolution: {integrity: sha512-tb7Iu+oZ+zWJZ3HJqwx8oNwSDIU440hmVMDPhpACWQWnrZHK99Bxs70gT1L2dnr5Hg50ZRWEFkQCAnOVVV0z1Q==}
+
+  '@types/node@22.7.9':
+    resolution: {integrity: sha512-jrTfRC7FM6nChvU7X2KqcrgquofrWLFDeYC1hKfwNWomVvrn7JIksqf344WN2X/y8xrgqBd2dJATZV4GbatBfg==}
 
   array-buffer-byte-length@1.0.1:
     resolution: {integrity: sha512-ahC5W1xgou+KTXix4sAO8Ki12Q+jf4i0+tmk3sC+zgcynshkHxzpXdImBehiUYKKKDwvfFiJl1tZt6ewscS1Mg==}
@@ -300,6 +306,9 @@ packages:
   tslib@2.8.0:
     resolution: {integrity: sha512-jWVzBLplnCmoaTr13V9dYbiQ99wvZRd0vNWaDRg+aVYRcjDF3nDksxFDE/+fkXnKhpnUUkmx5pK/v8mCtLVqZA==}
 
+  undici-types@6.19.8:
+    resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
+
   unicode-properties@1.4.1:
     resolution: {integrity: sha512-CLjCCLQ6UuMxWnbIylkisbRj31qxHPAurvena/0iwSVbQ2G1VY5/HjV0IRabOEbDHlzZlRdCrD4NhB0JtU40Pg==}
 
@@ -330,6 +339,10 @@ snapshots:
   '@swc/helpers@0.3.17':
     dependencies:
       tslib: 2.8.0
+
+  '@types/node@22.7.9':
+    dependencies:
+      undici-types: 6.19.8
 
   array-buffer-byte-length@1.0.1:
     dependencies:
@@ -653,6 +666,8 @@ snapshots:
   tiny-inflate@1.0.3: {}
 
   tslib@2.8.0: {}
+
+  undici-types@6.19.8: {}
 
   unicode-properties@1.4.1:
     dependencies:
